@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './index.css'
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -12,9 +12,6 @@ import iconDevices from './assets/devices-white.png';
 import iconDinamico from './assets/foguete-white.png';
 import iconWeb from './assets/web-white.png';
 import iconGithub from './assets/icons8-github.svg';
-
-import profilePic from './assets/profile.png';
-
 
 
 function App() {
@@ -64,7 +61,7 @@ function App() {
                             <a href="#sobre" className='border-2 m-auto mt-5 text-xl sm:w-3/12 border-white p-2 font-bold text-center hover:bg-white hover:text-black transition ease-in duration-200'>Conhecer meu trabalho <span className='ml-2'>►</span></a>
                         </div>
                     </div>
-                    <div className="area bg-slate-800" >
+                    <div className="area" >
                         <ul className="circles">
                                 <li></li>
                                 <li></li>
