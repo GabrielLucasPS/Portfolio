@@ -22,21 +22,13 @@
     background-color: #f43f5e;
     border-radius: 10px;
     border:1px solid #000;
-  }
+}
 
-  * {
+* {
     font-family: Nunito;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.APP {
-    overflow: hidden;
-}
-.Container {
-    width: 1000px;
-    max-width: 1000px;
-    margin: auto;
 }
 .menu-closed {
     display: none;
@@ -124,25 +116,6 @@
 .financeiro {
     background-image: url('./assets/expense-image.png');
 }
-
-@media (width < 450px) {
-    .Container {
-        width: 350px;
-        max-width: 350px;
-        margin: auto;
-    }
-
-}
-
-@media (450px < width < 1000px) {
-    .Container {
-        width: 750px;
-        max-width: 750px;
-        margin: auto;
-    }
-
-}
-
 
 
 
