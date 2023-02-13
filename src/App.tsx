@@ -50,8 +50,8 @@ function App() {
             </header>
             <body className='bg-slate-800'>
                 <div  id='inicio' className='border-b-4 border-slate-500'>
-                    <div className='z-30 h-screen w-[100%] bg-transparent flex absolute'>
-                        <div className='Container text-white flex flex-col align-middle'>
+                    <div className='z-30 h-screen w-[100%] bg-transparent flex justify-center align-middle items-center absolute'>
+                        <div className='container p-5 text-white flex flex-col justify-center align-middle'>
                             <h1 className="sm:text-4xl text-3xl text-center">
                                 Olá, eu sou <span className='text-rose-500'>Gabriel Lucas</span>.
                             </h1>
