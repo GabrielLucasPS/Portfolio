@@ -82,7 +82,6 @@ function App() {
                         <h1 className='flex-1 text-4xl pt-10 mb-3 text-center font-bold'>Sobre</h1>
                         <div className='border-b-4 w-14 mx-[auto]' ></div>
                     </div>
-                    <AnimationOnScroll animateIn="animate__fadeIn" offset={1}>
                         <div className='grid grid-cols-1 sm:grid-cols-3 gap-12 mb-36'>
                             <div className='flex flex-col '>
                                 <div className='w-32 h-28 mx-[auto] p-3 bg-rose-500 shape-outer hexagon'>
@@ -163,7 +162,6 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                    </AnimationOnScroll>
                 </div>
                 <div id='projetos' className='Container text-white pb-10'>
                     <div className='flex flex-col mb-20'>
@@ -171,9 +169,8 @@ function App() {
                         <div className='border-b-4 w-14 mx-[auto]' ></div>
                     </div>
 
-                    <AnimationOnScroll animateIn="animate__fadeIn" offset={1}>
                         <div className='grid justify-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10'>
-<div className='group flex flex-col justify-end bg-slate-500 h-80 w-80 rounded-2xl projeto memoria cursor-pointer  shadow-lg shadow-slate-700 hover:shadow-rose-700'>
+                            <div className='group flex flex-col justify-end bg-slate-500 h-80 w-80 rounded-2xl projeto memoria cursor-pointer  shadow-lg shadow-slate-700 hover:shadow-rose-700'>
                                 <div className='bg-neutral-900 px-2 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in rounded-b-2xl -mb-[2px] cursor-default'>
                                     <div className='pt-1'>
                                         <h2 className='font-bold text-xl'>DevMemory</h2>
@@ -261,14 +258,12 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                    </AnimationOnScroll>
                     <div id='contato' className='Container text-white mt-20 '>
                         <div className='flex flex-col mb-20'>
                             <h1 className='flex-1 text-4xl pt-10 mb-3 text-center font-bold'>Contato</h1>
                             <div className='border-b-4 w-14 mx-[auto]' ></div>
                         </div>
 
-                        <AnimationOnScroll animateIn="animate__fadeIn" offset={1}>
                             <div className='flex flex-col items-center font-bold'>
                                 <a href="https://www.linkedin.com/in/gabriel-pereira-a82846256/" target='_blank' className='mb-5'>
                                     <div className='flex justify-center items-center w-[350px] h-24 md:h-32 md:w-[450px] bg-rose-500 rounded-lg  md:py-10 md:px-5 mb-10 shadow-[0_0px_20px_0px_rgba(0,0,0,0.3)] shadow-black hover:shadow-rose-700   transition-all'>
@@ -285,7 +280,6 @@ function App() {
                                     <p className='text-center mt-3 text-3xl border-b-2'>gabrielglpsi@gmail.com</p>
                                 </div>
                             </div>
-                        </AnimationOnScroll>
                     </div>
                 </div>
             </body>
